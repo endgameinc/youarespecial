@@ -16,17 +16,6 @@ pip install -r requirements.txt
 ```
 in your shell.
 
-You must also install [LIEF](https://lief.quarkslab.com/#download).
-* 64-bit Linux 
-
-```pip install https://github.com/lief-project/LIEF/releases/download/0.7.0/linux_lief-0.7.0_py3.6.tar.gz```
-* 64-bit Windows 
-
-```pip install https://github.com/lief-project/LIEF/releases/download/0.7.0/linux_lief-0.7.0_py3.6.tar.gz```
-* 64-bit OSX 
-
-```pip install https://github.com/lief-project/LIEF/releases/download/0.7.0/osx_lief-0.7.0_py3.6.tar.gz```
-
 ### Bring your own samples
 Create subdirectories `malicious/` and `benign/` off of the main branch, and populate them with malicious and benign samples, respectively.  (Hint: this may be the most important step in creating your machine learning model.  For deep learning models, you should make sure to have at least 100K samples between the two subdirectories.)
 

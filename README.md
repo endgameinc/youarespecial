@@ -1,7 +1,7 @@
 # Create your own machine learning model from scratch
 Playground/tutorial for machine learning malware models, including end-to-end deep learning for malicious file detection.
 
-# Notebooks
+# Notebooks for BSidesLV 2017 "Your Model Isn't That Special"
 For a gentle walk through the BSidesLV 2017 talk, it's recommended that you peruse through the notebooks in the following order
 1. [BSidesLV -- your model isn't that special -- (1) MLP](BSidesLV%20--%20your%20model%20isn't%20that%20special%20--%20(1)%20MLP.ipynb)
 2. [BSidesLV -- your model isn't that special -- (2) End-to-End](BSidesLV%20--%20your%20model%20isn't%20that%20special%20--%20(2)%20End-to-End.ipynb)

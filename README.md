@@ -1,5 +1,7 @@
 # Create your own machine learning model from scratch
-Playground/tutorial for machine learning malware models, including end-to-end deep learning for malicious file detection.
+This repo serves two purposes:
+(1) It's a playground/tutorial for machine learning malware models, including end-to-end deep learning for malicious file detection.
+(2) It's a demonstration that one cannot simply throw deep learning architectures inspired in other domains and expect good performance for static malware classification.  
 
 # Notebooks for BSidesLV 2017 "Your Model Isn't That Special"
 For a gentle walk through the BSidesLV 2017 talk, it's recommended that you peruse through the notebooks in the following order
@@ -17,7 +19,7 @@ pip install -r requirements.txt
 in your shell.
 
 ### Bring your own samples
-Create subdirectories `malicious/` and `benign/` off of the main branch, and populate them with malicious and benign samples, respectively.  (Hint: this may be the most important step in creating your machine learning model.  For deep learning models, you should make sure to have at least 100K samples between the two subdirectories.)
+Create subdirectories `malicious/` and `benign/` off of the main branch, and populate them with malicious and benign samples, respectively.  Hint: this may be the most important step in creating your machine learning model.  For the first multilayer perceptron model, you should make sure to have at least 100K samples between the two subdirectories.  For the end-to-end models that have very large capacity, one should generally try for millions of samples between the two directories.  For this demo, we're going to stick with 100K samples, and note that the expressive end-to-end models are overfitting.
 
 ## Training models
 You may then try any of the malware models contained in the `classifier/` directory.  For example ```python classifier/modeltest_multilayer.py``` will extract features for all the the samples in `malicious/` and `benign/` and cache them into `sample_index.json` and `X.dat` numpy array, then build a multilayer percpetron on top of those features.

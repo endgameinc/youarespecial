@@ -1,5 +1,5 @@
 # Create your own machine learning model from scratch
-This repo accompanies a BSidesLV 2017 talk, "Your model isn't that special".  It serves two purposes:
+This repo accompanies a [BSidesLV 2017 talk, "Your model isn't that special"](https://www.youtube.com/watch?v=Am4tJaqoKOU). It serves two purposes:
 1. It's a playground/tutorial for machine learning malware models, including end-to-end deep learning for malicious file detection.
 2. It's a demonstration that one cannot simply throw deep learning architectures inspired in other domains and expect good performance for static malware classification.  (The models may not be optimized for malware, and certainly our training data sizes are too small to train large capacity models.)
 
